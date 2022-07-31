@@ -4,7 +4,8 @@ console.time('response in');
 console.log('Click to continue');
 console.timeEnd('response in');
 console.log('One more time');
-console.timeEnd('response in')
+console.log.timeEnd('response in')
+
 
 
 
@@ -18,3 +19,5 @@ for (i = 0; i < 50000; ++i) {
 var end = new Date().getTime();
 var time = end - start;
 console.log('Execution time: ' + time);
+
+// Example-3
